@@ -31,7 +31,7 @@
         mdui.setColorScheme(a[month]);
     </script>
 
-    <title>Schedule of Frisbee Friendship Tournament - Bubble Senior High School</title>
+    <title>Autumn outing grouping arrangement - Bubble Senior High School</title>
 </head>
 
 <body style="background-color: var(--mdui-color-background); color: var(--mdui-color-on-background);">
@@ -58,13 +58,17 @@
     </script>
     <mdui-top-app-bar variant="large" scroll-behavior="shrink elevate" class="">
         <mdui-button-icon icon="arrow_backward" href="../"></mdui-button-icon>
-        <mdui-top-app-bar-title>Schedule of Frisbee Friendship Tournament</mdui-top-app-bar-title>
+        <mdui-top-app-bar-title>Autumn outing grouping arrangement</mdui-top-app-bar-title>
         <div style="flex-grow: 1"></div>
         <mdui-tooltip content="刷新"><mdui-button-icon icon="refresh"
                 onclick="location.reload();"></mdui-button-icon></mdui-tooltip>
     </mdui-top-app-bar>
     <div class="mdui-prose" style="width: 94%; margin: 0 auto; max-width: 1280px;">
-        <img src="./aa.jpg">
+        <mdui-tabs value="tab-1" placement="top-start" class="example-placement">
+            <mdui-tab value="tab-1">Image</mdui-tab>
+
+            <mdui-tab-panel slot="panel" value="tab-1"><img src="./aa.jpg"></mdui-tab-panel>
+        </mdui-tabs>
     </div>
 </body>
 

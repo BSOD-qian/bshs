@@ -64,7 +64,11 @@
                 onclick="location.reload();"></mdui-button-icon></mdui-tooltip>
     </mdui-top-app-bar>
     <div class="mdui-prose" style="width: 94%; margin: 0 auto; max-width: 1280px;">
-        <img src="./frisbee_schedule.jpg">
+        <mdui-tabs value="tab-1" placement="top-start" class="example-placement">
+            <mdui-tab value="tab-1">Image</mdui-tab>
+
+            <mdui-tab-panel slot="panel" value="tab-1"><img src="./frisbee_schedule.jpg"></mdui-tab-panel>
+        </mdui-tabs>
     </div>
 </body>
 
