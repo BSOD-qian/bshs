@@ -69,71 +69,71 @@
                 onclick="location.reload();"></mdui-button-icon></mdui-tooltip>
     </mdui-top-app-bar>
 
-            <!-- 轮播 -->
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!-- 轮播 -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-                <!-- 指示符 -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <!-- 指示符 -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 350px; overflow: hidden;">
+                <img id="img1" src="./1.jpg" class="d-block"
+                    style="width:100%; position: absolute; top: 50%; transform: translateY(-50%);">
+                <div class="carousel-caption">
+                    <h3 style="color: black;">Welcome to Bubble Senior High School</h3>
                 </div>
-    
-                <!-- 轮播图片 -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active" style="height: 350px; overflow: hidden;">
-                        <img src="./1.png" class="d-block"
-                            style="width:100%; position: absolute; top: 50%; transform: translateY(-50%);">
-                            <div class="carousel-caption">
-                                <h3 style="color: black;">Welcome to Bubble Senior High School</h3>
-                              </div>
-                    </div>
-                    <div class="carousel-item" style="height: 350px; overflow: hidden;">
-                        <img src="./2.png" class="d-block"
-                            style="width:100%; position: absolute; top: 50%; transform: translateY(-50%);">
-                            <div class="carousel-caption">
-                                <h3 style="color: black;">Rock for life!</h3>
-                                <p style="color: black;">Band Competition - finals<a href="./detail/rol.html">Details>></a></p>
-                              </div>
-                    </div>
-                    <div class="carousel-item" style="height: 350px; overflow: hidden;">
-                        <img src="./3.png" class="d-block"
-                            style="width:100%; position: absolute; top: 50%; transform: translateY(-50%);">
-                            <div class="carousel-caption">
-                                <h3>Join this exclusive girl's carnival night!</h3>
-                                <p>Olivia is waiting fou you at public lounge of dormitory building 305. - AD</p>
-                              </div>
-                    </div>
-                </div>
-    
-                <!-- 左右切换按钮 -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
             </div>
+            <div class="carousel-item" style="height: 350px; overflow: hidden;">
+                <img id="img2" src="./2.jpg" class="d-block"
+                    style="width:100%; position: absolute; top: 50%; transform: translateY(-50%);">
+                <div class="carousel-caption">
+                    <h3 style="color: black;">Rock for life!</h3>
+                    <p style="color: black;">Band Competition - finals<a href="./detail/rol.html">Details>></a></p>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 350px; overflow: hidden;">
+                <img id="img3" src="./3.jpg" class="d-block"
+                    style="width:100%; position: absolute; top: 50%; transform: translateY(-50%);">
+                <div class="carousel-caption">
+                    <h3>Join this exclusive girl's carnival night!</h3>
+                    <p>Olivia is waiting fou you at public lounge of dormitory building 305. - AD</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 左右切换按钮 -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
     <div class="mdui-prose" style="width: 94%; margin: 0 auto; max-width: 1280px;">
         <h1 style="text-align: center;">Announcement</h1>
         <mdui-list>
             <mdui-list-subheader>The first semester of the 2023 academic year</mdui-list-subheader>
             <mdui-list-item>
-              List of finalists for the school band competition finals
-              <span slot="description">See if you're among them</span>
-              <mdui-button end-icon="arrow_forward" slot="end-icon" href="./detail/rol.html">Go</mdui-button>
+                List of finalists for the school band competition finals
+                <span slot="description">See if you're among them</span>
+                <mdui-button end-icon="arrow_forward" slot="end-icon" href="./detail/rol.html">Go</mdui-button>
             </mdui-list-item>
             <mdui-list-item>
                 Autumn outing grouping arrangement
                 <span slot="description">Important! Everyone must check!</span>
                 <mdui-button end-icon="arrow_forward" slot="end-icon" href="./detail/aa.html">Go</mdui-button>
-              </mdui-list-item>
-              <mdui-list-item>
+            </mdui-list-item>
+            <mdui-list-item>
                 Schedule of Frisbee Friendship Tournament
                 <span slot="description">Schedule of Frisbee Friendship Tournament</span>
                 <mdui-button end-icon="arrow_forward" slot="end-icon" href="./detail/frisbee.html">Go</mdui-button>
-              </mdui-list-item>
-          </mdui-list>
+            </mdui-list-item>
+        </mdui-list>
     </div>
     <mdui-navigation-drawer close-on-overlay-click id="drawer" modal close-on-esc close-on-overlay-click>
         <mdui-list>
@@ -148,6 +148,27 @@
 
         drawer_openButton.addEventListener("click", function () { navigationDrawer.open = true });
         //drawer_closeButton.addEventListener("click", function () { navigationDrawer.open = false });
+    </script>
+    <script>
+        if (navigator.userAgent.indexOf("Windows") == -1) {
+            if (navigator.userAgent.indexOf("Macintosh") == -1) {
+                if (navigator.userAgent.indexOf("X11") == -1) {
+                    console.log('notfound')
+                } else {
+                    document.getElementById("img1").src = "./1.png";
+                    document.getElementById("img2").src = "./2.png";
+                    document.getElementById("img3").src = "./3.png";
+                }
+            } else {
+                document.getElementById("img1").src = "./1.png";
+                document.getElementById("img2").src = "./2.png";
+                document.getElementById("img3").src = "./3.png";
+            }
+        } else {
+            document.getElementById("img1").src = "./1.png";
+            document.getElementById("img2").src = "./2.png";
+            document.getElementById("img3").src = "./3.png";
+        }
     </script>
 </body>
 
