@@ -69,82 +69,44 @@
                 onclick="location.reload();"></mdui-button-icon></mdui-tooltip>
     </mdui-top-app-bar>
 
-    <!-- 轮播 -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- 指示符 -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        </div>
-
-        <!-- 轮播图片 -->
-        <!--<div class="carousel-inner">
-            <div class="carousel-item active" style="height: 350px; overflow: hidden;">
-                <img src="./1.jpg" class="d-block"
-                    style="width:100%; position: absolute; top: 50%; transform: translateY(-50%);">
-                <div class="carousel-caption">
-                    <h3>Rock for life!</h3>
-                    <p>Band Competition - finals<a href="./detail/rol.html">Details>></a></p>
-                </div>
-            </div>
-            <div class="carousel-item" style="height: 350px; overflow: hidden;">
-                <img src="./2.jpg" class="d-block"
-                    style="width:100%; position: absolute; top: 50%; transform: translateY(-50%);">
-                <div class="carousel-caption">
-                    <h3>描述标题</h3>
-                    <p>描述内容</p>
-                </div>
-            </div>
-            <div class="carousel-item" style="height: 350px; overflow: hidden;">
-                <img src="./3.jpg" class="d-block"
-                    style="width:100%; position: absolute; top: 50%; transform: translateY(-50%);">
-                <div class="carousel-caption">
-                    <h3>描述标题</h3>
-                    <p>描述内容</p>
-                </div>
-            </div>
-        </div>-->
-
-        <!-- 左右切换按钮 -->
-        <!--<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>-->
-    </div>
     <div class="mdui-prose" style="width: 94%; margin: 0 auto; max-width: 1280px;">
         (Sort alphabetically)<br />
         <br />
-        Amy-B4 Music Class<br />
-        Monitor B4, leader of the student union （activity department）<br />
-        Lounge：405<br />
-        <br />
-        Bob-A2 Computer Class<br />
-        Monitor A2, campus network developer<br />
-        Lounge：305<br />
-        <br />
-        Olivia-A4 Music Class<br />
-        “Frisbee Queen”, student union member（activity department）,school vlogger<br />
-        Lounge：305<br />
-        <br />
-        Ryan-A3 Literature Class<br />
-        Leader of the student union （discipline inspection department）<br />
-        Lounge：305<br />
-        <br />
-        Taylor-A1 Art Class<br />
-        Monitor A1, school magazine painter<br />
-        Lounge：305<br />
-        <br />
-        Tom-A3 Literature Class<br />
-        school magazine photographer<br />
-        Lounge：2010<br />
-        <br />
-        Wennie-A4 Music Class<br />
-        Monitor A4<br />
-        Lounge：3010<br />
+        <mdui-card variant="elevated" style="padding: 16px;">
+            <h1>Amy</h1><mdui-chip>B4</mdui-chip><mdui-chip>Music Class</mdui-chip><br />
+            Monitor B4, leader of the student union (activity department)<br />
+            Lounge：405<br />
+        </mdui-card>
+        <mdui-card variant="elevated" style="padding: 16px;">
+            <h1>Bob</h1><mdui-chip>A2</mdui-chip><mdui-chip>Computer Class</mdui-chip><br />
+            Monitor A2, campus network developer<br />
+            Lounge：405<br />
+        </mdui-card>
+        <mdui-card variant="elevated" style="padding: 16px;">
+            <h1>Olivia</h1><mdui-chip>A4</mdui-chip><mdui-chip>Music Class</mdui-chip><br />
+            “Frisbee Queen”, student union member（activity department）,school vlogger<br />
+            Lounge：305<br />
+        </mdui-card>
+        <mdui-card variant="elevated" style="padding: 16px;">
+            <h1>Ryan</h1><mdui-chip>A3</mdui-chip><mdui-chip>Literature Class</mdui-chip><br />
+            Leader of the student union （discipline inspection department）<br />
+            Lounge：305<br />
+        </mdui-card>
+        <mdui-card variant="elevated" style="padding: 16px;">
+            <h1>Taylor</h1><mdui-chip>A1</mdui-chip><mdui-chip>Art Class</mdui-chip><br />
+            Monitor A1, school magazine painter<br />
+            Lounge：305<br />
+        </mdui-card>
+        <mdui-card variant="elevated" style="padding: 16px;">
+            <h1>Tom</h1><mdui-chip>A3</mdui-chip><mdui-chip>Literature Class</mdui-chip><br />
+            school magazine photographer<br />
+            Lounge：2010<br />
+        </mdui-card>
+        <mdui-card variant="elevated" style="padding: 16px;">
+            <h1>Wennie</h1><mdui-chip>A4</mdui-chip><mdui-chip>Music Class</mdui-chip><br />
+            Monitor A4<br />
+            Lounge：3010<br />
+        </mdui-card>
     </div>
     <mdui-navigation-drawer close-on-overlay-click id="drawer" modal close-on-esc close-on-overlay-click>
         <mdui-list>
