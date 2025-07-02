@@ -1,0 +1,8 @@
+html::-webkit-scrollbar{
+    width: 4px;
+    height: 4px;
+    background-color: var(--mdui-color-background);
+}
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(var(--mdui-color-primary));
+}

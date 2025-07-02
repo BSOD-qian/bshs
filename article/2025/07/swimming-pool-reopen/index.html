@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN" class="mdui-theme-auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" />
+    <meta name="renderer" content="webkit" />
+
+    <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
+    <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
+    <!-- 如果使用了组件的 icon 属性，还需要引入图标的 CSS 文件 -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
+
+    <title>Swimming pool reopen | Bubble Senior High School</title>
+</head>
+
+<body>
+    <mdui-top-app-bar variant="large" scroll-behavior="shrink elevate">
+        <mdui-button-icon icon="menu" id="drawer-opener"></mdui-button-icon>
+        <mdui-button variant="tonal" icon="arrow_backword" href="../../../../">Back</mdui-button>
+        <mdui-top-app-bar-title>Swimming pool reopen - Bubble Senior High School<span slot="label-large">Swimming pool reopen</span></mdui-top-app-bar-title>
+        <div style="flex-grow: 1"></div>
+        <mdui-button-icon icon="more_vert"></mdui-button-icon>
+    </mdui-top-app-bar>
+    <div class="mdui-prose" style="margin: 16px;">
+        <span style="color: rgb(var(--mdui-color-secondary)); display: flex; align-items: center; "><mdui-icon
+                name="person"></mdui-icon>Administrator/<mdui-icon name="calendar_month"></mdui-icon>2025-07-01/<mdui-icon name='tag'></mdui-icon>Announcement</span>
+        <mdui-divider></mdui-divider>
+        <p>Our campus swimming pool will reopen on 2025/7/5. We welcome you to swim at the swimming pool.</p>
+
+        <div style="color: rgb(var(--mdui-color-secondary)); margin-top: 32px;">
+            Bubble Senior High School is only a plot setting, not a real-life school. <br/>Powered by MDUI & 11ty. <br/>©2025 不起泡剧组. All right reserved. 
+        </div>
+    </div>
+    <mdui-navigation-drawer close-on-overlay-click modal class="drawer">
+        <mdui-list><mdui-list-item href="/bshs" icon="home" >
+                Home
+            </mdui-list-item><mdui-list-item href="./school-star" icon="star" disabled>
+                School Stars
+            </mdui-list-item></mdui-list>
+    </mdui-navigation-drawer>
+    <script>
+        const navigationDrawer = document.querySelector(".drawer");
+        const openButton = document.getElementById("drawer-opener")
+        openButton.addEventListener("click", () => navigationDrawer.open = true);
+    </script>
+    <script>
+        mdui.setColorScheme('#114514');
+    </script>
+    <style>
+        html::-webkit-scrollbar {
+            width: 4px;
+            height: 4px;
+            background-color: var(--mdui-color-background);
+        }
+
+        html::-webkit-scrollbar-thumb {
+            background-color: rgb(var(--mdui-color-primary));
+        }
+    </style>
+</body>
+
+</html>
