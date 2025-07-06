@@ -36,7 +36,6 @@
         <mdui-button-icon icon="menu" id="drawer-opener"></mdui-button-icon>
         <mdui-top-app-bar-title>Bubble Senior High School<span slot="label-large">Bubble Senior High School</span></mdui-top-app-bar-title>
         <div style="flex-grow: 1"></div>
-        <mdui-button-icon icon="more_vert"></mdui-button-icon>
     </mdui-top-app-bar>
     <div class="mdui-prose" style="margin: 16px;">
         <p><em>We are still working on our website, stay tuned.</em></p>
@@ -169,15 +168,23 @@
         </div><h2>Announcement</h2>
         <mdui-list><mdui-list-item href="./article/2025/07/swimming-pool-reopen/">
                 Swimming pool reopen
-                <span slot="description" style="display: flex; align-items: center;"><mdui-icon
-                        name="person"></mdui-icon>Administrator/<mdui-icon name="calendar_month"></mdui-icon>2025-07-01/<mdui-icon name='tag'></mdui-icon>Announcement</span>
+                <span slot="description"
+                    style="display: flex; align-items: center; "><mdui-icon
+                        name="person"></mdui-icon><span
+                        style="white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">School Management Office</span>/<mdui-icon name="calendar_month"></mdui-icon><span
+                        style="white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">2025-07-01</span>/<mdui-icon name='tag'></mdui-icon><span
+                        style="white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">Announcement</span></span>
             </mdui-list-item><mdui-list-item href="./article/2025/06/band-competition-final/">
                 Band Competition Finals
-                <span slot="description" style="display: flex; align-items: center;"><mdui-icon
-                        name="person"></mdui-icon>Administrator/<mdui-icon name="calendar_month"></mdui-icon>2025-06-30/<mdui-icon name='tag'></mdui-icon>Announcement,Rock for life</span>
+                <span slot="description"
+                    style="display: flex; align-items: center; "><mdui-icon
+                        name="person"></mdui-icon><span
+                        style="white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">&quot;Rock for life&quot; Band Competition Offical</span>/<mdui-icon name="calendar_month"></mdui-icon><span
+                        style="white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">2025-06-30</span>/<mdui-icon name='tag'></mdui-icon><span
+                        style="white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">Announcement,Rock for life</span></span>
             </mdui-list-item></mdui-list>
         <div style="color: rgb(var(--mdui-color-secondary)); margin-top: 32px;">
-            Bubble Senior High School is only a plot setting, not a real-life school. <br/>Powered by MDUI & 11ty. <br/>©2025 不起泡剧组. All right reserved. 
+            Bubble Senior High School is only a plot setting, not a real-life school. <br/>Powered by MDUI & 11ty. <br/>&copy;2025 不起泡剧组. All right reserved. 
         </div>
     </div>
     <mdui-navigation-drawer close-on-overlay-click modal class="drawer">
@@ -193,7 +200,7 @@
         openButton.addEventListener("click", () => navigationDrawer.open = true);
     </script>
     <script>
-        mdui.setColorScheme('#114514');
+        mdui.setColorScheme('#CE6800');
     </script>
     <style>
         html::-webkit-scrollbar {
